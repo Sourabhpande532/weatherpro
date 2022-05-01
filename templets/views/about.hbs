@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    {{>headerlinks}}
+   </head>
+<body>
+    {{>navbar}}
+   <!-- main header -->
+
+   <div class="container-fluid main_header">
+     <div class="row">
+       <div class="col-md-10 col-12 mx-auto">
+<div class="row">
+  <!-- left side div -->
+  <div class="col-md-6 col-12 main_header_left">
+    <figure>
+        <img src="Images/shadow.webp" alt="">
+    </figure>
+ </div>
+<!-- right side dive -->
+ <div class="col-md-6 col-12 main_header_right align-item-center">
+ 
+    <p>Lets's Come and Visit me</p>
+    <h1>I am A <span class="text2"> Fronted web Developer </span> and  Designer make a Free Responsive website  </h1>
+    <a href="https://saurabh-d3518.netlify.app/" target="__black"><button> About me </button></a>
+
+  </div>
+  <style>
+      
+.main_header_right .text2{
+  color: #0097e6;
+}
+
+.main_header_right p{
+    font-size: 1.5rem;
+    margin-right:auto ;
+}
+.main_header_right button{
+    border: none;
+    padding: 0.8rem 1.8rem;
+    font-size: 1rem;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    box-shadow: 0 8px 6px -6px #000;
+    outline: none;
+}
+.main_header_right a{
+    margin-right: auto;
+}
+.main_header_right button:hover{
+    box-shadow: 0 8px 6px -6px var(--main-color);
+}
+.main_header_right h1{
+    font-size: 2rem;
+    margin: 1rem 0 3rem 0;
+    text-transform: capitalize;
+}
+.main_header_left{
+padding-right: 10rem;
+}
+.main_header_left figure img{
+    filter: drop-shadow(0 0.7rem 1rem rgba(0,0,0,1.2rem));
+}
+  </style>
+
+</div>
+
+</div>
+
+       </div>
+     </div>
+   </div>
+
+   <!-- footer side -->
+{{>footer}}
+
+</body>
+</html>
