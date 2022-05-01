@@ -55,17 +55,3 @@ submitbtn.addEventListener("click", getinfo)
 
 
 
-// practice
-// const submitbtn = document.getElementById("submitBtn");
-// const a = document.getElementById("cityName");
-// const s = document.getElementById("bablu2");
-
-
-// function getinfo(Event) {
-//     Event.preventDefault()
-//     let E = a.value;
-//     if(E==="")
-//      s.innerHTML = "Bola Hari pandu rang"
-// }
-
-// submitbtn.addEventListener("click" ,getinfo)
