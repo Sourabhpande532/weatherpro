@@ -46,4 +46,3 @@ app.listen(port, ()=>{
 });
 
 // always try to run nodemon src/app.js -e js,hbs
-// it will save the dath if error
